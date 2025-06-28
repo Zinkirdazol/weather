@@ -50,4 +50,3 @@ for label, (lon, lat, time_str) in locations.items():
 
 plt.tight_layout()
 plt.show()
-
