@@ -12,9 +12,8 @@ ny_str = ny_time.strftime("%d/%m/%Y %H:%M:%S")
 
 fig, ax = plt.subplots()
 ax.axis("off")
-ax.text(0.5, 0.8, f"tr_time: {tr_str}", ha="center", va="center", fontsize=12)
-ax.text(0.5, 0.6, f"uk_time: {uk_str}", ha="center", va="center", fontsize=12)
-ax.text(0.5, 0.4, f"ny_time: {ny_str}", ha="center", va="center", fontsize=12)
+ax.text(0.5, 0.8, f"Türkiye (İstanbul): {tr_str}", ha="center", va="center", fontsize=12)
+ax.text(0.5, 0.6, f"İngiltere (Londra): {uk_str}", ha="center", va="center", fontsize=12)
+ax.text(0.5, 0.4, f"ABD (New York): {ny_str}", ha="center", va="center", fontsize=12)
 
 plt.show()
-
